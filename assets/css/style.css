@@ -1,0 +1,63 @@
+body {
+    background-image: url("../images/samplebg03.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #191919;
+}
+
+.navbar {
+    background: #191919;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1000;
+}
+
+.nav-item {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.nav-link:hover {
+    color: orange !important;
+}
+
+#logo {
+    width: 20%;
+    margin-left: 15px;
+}
+
+#mainImg {
+    width: 100%;
+}
+
+.jumbotron {
+    background: #f0f0f0;
+}
+
+.btn {
+    background: orange;
+}
+
+.box {
+    color: #f0f0f0;
+    margin-top: 75px;
+}
+
+footer {
+    height: 50px;
+    background: #191919;
+    color: #f0f0f0;
+    margin-top: 150px;
+    align-content: center;
+    bottom: 0;
+}
+
+#footerContent {
+    padding: 10px;
+    text-align: center;
+}
